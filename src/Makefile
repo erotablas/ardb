@@ -58,9 +58,9 @@ SNAPPY_FILE=${SNAPPY_PATH}.tar.gz
 SNAPPY_REMOTE_FILE=https://github.com/google/snappy/releases/download/${SNAPPY_VER}/snappy-${SNAPPY_VER}.tar.gz
 SNAPPY_LIBA=${SNAPPY_PATH}/.libs/libsnappy.a
 
-ROCKSDB_VER=6.8.1
+ROCKSDB_VER=6.8.fb
 ROCKSDB_PATH=${LIB_PATH}/rocksdb-${ROCKSDB_VER}
-ROCKSDB_REMOTE_FILE=https://github.com/erotablas/rocksdb/archive/v${ROCKSDB_VER}.tar.gz
+ROCKSDB_REMOTE_FILE=https://github.com/erotablas/rocksdb/archive/${ROCKSDB_VER}.tar.gz
 ROCKSDB_FILE=${ROCKSDB_PATH}.tar.gz
 ROCKSDB_LIBA=${ROCKSDB_PATH}/librocksdb.a
 
